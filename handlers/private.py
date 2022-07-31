@@ -9,7 +9,7 @@ from helpers.filters import command, other_filters2
 async def start(_, message: Message):
                 await message.reply_photo(
                 "https://telegra.ph/file/754c4457767c0ef064ea7.jpg",
-                caption=(f"""● **ᴍᴇʀʜᴀʙᴀ** {message.from_user.mention} \n\n● **𝖡𝖾𝗇** {bot} !\n\n● **sᴇsʟɪ sᴏʜʙᴇᴛʟᴇʀᴅᴇ ᴍᴜ̈ᴢɪᴋ ᴄ̧ᴀʟᴀʙɪʟᴇɴ sᴇssɪᴢ sɪɴᴇᴍᴀ ᴏʏᴜɴᴜ ᴠᴇ ʏᴀş ᴛᴀʜᴍɪɴ ᴏʏɴᴀʏᴀʙɪʟᴇᴄᴇɢ̆ɪɴɪᴢ ʙᴏᴛᴜᴍ . . !** \n\n● **ʙᴀɴ ʏᴇᴛᴋɪsɪᴢ, sᴇs ʏᴏ̈ɴᴇᴛɪᴍ ʏᴇᴛᴋɪsɪ ᴠᴇʀɪᴘ ᴀsɪsᴛᴀɴɪ ɢʀᴜʙᴀ ᴇᴋʟᴇʏɪɴ . . !**"""),
+                caption=(f"""● **ᴍᴇʀʜᴀʙᴀ** {message.from_user.mention} \n\n● **𝖡𝖾𝗇** {bot} !\n\n● **sᴇsʟɪ səsli söhbətlərdə mahnı oxuya bilən botam məni qrupunuza atıb yetki verməyiniz kifayətdir  . . !** \n\n● **ban yetkisiz səsli söhbətləri idarə yetkisi verməyiniz bəs edir . . !**"""),
          reply_markup=InlineKeyboardMarkup(
             [
                 [
@@ -19,18 +19,18 @@ async def start(_, message: Message):
                 ],
                 [
                     InlineKeyboardButton(
-                        "❤️‍🔥 Söhbət Dəsdək", url="https://t.me/GOLD_FED_TEAM"
+                        "❤️‍🔥 sᴜᴘᴘᴏʀᴛ", url="https://t.me/creativtemaa"
                     ),
                     InlineKeyboardButton(
-                        "⚡️ Kanalım", url="https://t.me/QocayefBlog"
+                        "⚡️ ᴋᴀɴᴀʟɪᴍ", url="https://t.me/QocayefBlog"
                     )
                 ],
                 [
                     InlineKeyboardButton(
-                        "🐊 Komandalar" , callback_data= "cbbilgi"
+                        "🐊 ᴋᴏᴍᴀɴᴅᴀʟᴀʀ" , callback_data= "cbbilgi"
                     ),
                     InlineKeyboardButton(
-                        "Qrupa Əlavə et", url=f"https://t.me/GOLDMusccbot?startgroup=true"
+                        "Qrᴜᴘᴀ ᴇʟᴀᴠᴇ ᴇᴛ", url=f"https://t.me/GOLDMusccbot?startgroup=true"
                     )
                 ]
                 
@@ -53,7 +53,7 @@ async def bilgi(_, message: Message):
                          "🗯️ 𝖠𝗇𝖺 menyu ", callback_data="cbstart")
                  ],[
                      InlineKeyboardButton(
-                         "🖤 Söhbət qrupum", url="https://t.me/TinyCactusGroup")
+                         "🖤 sᴏʜʙᴇᴛ ǫʀᴜᴘᴜᴍ", url="https://t.me/creativtemaa")
                  ]
              ]
          )
@@ -75,7 +75,7 @@ async def cbbilgi(_, query: CallbackQuery):
         ],
         [
           InlineKeyboardButton(
-            "🇦🇿 Kanalım", url="https://t.me/QocayefBlog")
+            "🇦🇿 ᴋᴀɴᴀʟɪᴍ", url="https://t.me/QocayefBlog")
         ]
       ]
      ))
@@ -124,7 +124,7 @@ async def cbstart(_, query: CallbackQuery):
             [
                 [
                     InlineKeyboardButton(
-                        "🎉 Məni grupuna əlavə et ⚡️", url=f"https://t.me/GOLDMusccbot?startgroup=true"
+                        "⚡️ Məni grupuna əlavə et ⚡️", url=f"https://t.me/GOLDMusccbot?startgroup=true"
                     )
                 ],
                 [
@@ -140,7 +140,7 @@ async def cbstart(_, query: CallbackQuery):
                         "📚 komandalar" , callback_data= "cbbilgi"
                     ),
                     InlineKeyboardButton(
-                        "❤️‍🔥 Grupum", url=f"https://t.me/TinyCactusGroup"
+                        "❤️‍🔥 Grupum", url=f"https://t.me/creativtemaa"
                     )
                 ]
                 
