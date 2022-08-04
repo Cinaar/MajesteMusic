@@ -16,7 +16,7 @@ from pytgcalls.types.input_stream import InputStream
 
 ACTV_CALLS = []
 
-@Client.on_message(command(["durdur", "pause"]) & other_filters)
+@Client.on_message(command(["end", "pause"]) & other_filters)
 @errors
 @authorized_users_only
 async def durdur(_, message: Message):
@@ -27,7 +27,7 @@ async def durdur(_, message: Message):
     
 
 
-@Client.on_message(command(["devam", "resume"]) & other_filters)
+@Client.on_message(command(["basla", "resume"]) & other_filters)
 @errors
 @authorized_users_only
 async def devam(_, message: Message):
@@ -58,7 +58,7 @@ async def stop(_, message: Message):
             "✅ **Mahnı uğurla dayandırıldı !**\n\n• **Userbot səsli sohbət əlaqəsi kəsildi. !**"
         )
     
-@Client.on_message(command(["atla", "skip"]) & other_filters)
+@Client.on_message(command(["keç", "skip"]) & other_filters)
 @errors
 @authorized_users_only
 async def atla(_, message: Message):
