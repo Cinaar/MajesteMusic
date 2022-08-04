@@ -72,11 +72,11 @@ async def generate_cover(requested_by, title, views, duration, thumbnail):
     img = Image.open("temp.png")
     draw = ImageDraw.Draw(img)
     font = ImageFont.truetype("etc/font.otf", 32)
-    draw.text((190, 550), f"Parça İsmi: {title}", (255, 255, 255), font=font)
+    draw.text((190, 550), f"🐊 Parça İsmi: {title}", (255, 255, 255), font=font)
     draw.text(
-        (190, 590), f"Parçanın süresi: {duration}", (255, 255, 255), font=font
+        (190, 590), f"🐊 Parçanın süresi: {duration}", (255, 255, 255), font=font
     )
-    draw.text((190, 630), f"Görüntüləməə sayısı: {views}", (255, 255, 255), font=font)
+    draw.text((190, 630), f"🐊 Görüntüləməə sayısı: {views}", (255, 255, 255), font=font)
     draw.text((190, 670),
         f"Başladan kişi: {requested_by}",
         (255, 255, 255),
@@ -109,7 +109,7 @@ async def play(_, message: Message):
     try:
         user = await USER.get_me()
     except:
-        user.first_name = "Asisstanc"
+        user.first_name = "CreativAsisstan"
     usar = user
     wew = usar.id
     try:
