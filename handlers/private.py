@@ -83,7 +83,7 @@ async def cbbilgi(_, query: CallbackQuery):
 
 @Client.on_callback_query(filters.regex("herkes"))
 async def herkes(_, query: CallbackQuery):
-    await query.edit_message_text(f"""<b>\nsᴇsʟɪ sᴏʜʙᴇᴛ ᴋᴏᴍᴜᴛʟᴀʀɪ » /vbul => video tapar . \n» /tap => mahnı tapar . \n» /play => mahnını başladar . \n» /durdur => mahnını dayandırar . \n» /devam => dayanan mahnını basladar . \n» /atla =>  sıradaki mahnıya keçər . \n» /son => mahnını sonladırar . \n» /katil => asistan qrupa qatılar  . \n» /reload => botu yenidən başladar .</b>\n\n\n sᴇssɪᴢ sɪɴᴇᴍᴀ ᴏʏᴜɴ ᴋᴏᴍᴜᴛʟᴀʀɪ: \n» /oyun => ʏᴇɴɪ ᴏʏᴜɴ ʙᴀşʟᴀᴛɪʀ . \n» /ogretmen => ᴏ̈ɢ̆ʀᴇᴛᴍᴇɴ ᴏʟᴍᴀᴋ \n» /puan => ɢʀᴜᴘ ᴜ̈ᴢᴇʀᴇ ᴘᴜᴀɴʟᴀʀ </b>""",
+    await query.edit_message_text(f"""<b>\nsᴇsʟɪ sᴏʜʙᴇᴛ ᴋᴏᴍᴜᴛʟᴀʀɪ » /vbul => video tapar . \n» /tap => mahnı tapar . \n» /play => mahnını başladar . \n» /end => mahnını dayandırar . \n» /basla => dayanan mahnını basladar . \n» /keç =>  sıradaki mahnıya keçər . \n» /son => mahnını sonladırar . \n» /katil => asistan qrupa qatılar  . \n» /reload => botu yenidən başladar .</b>\n\n\n sᴇssɪᴢ sɪɴᴇᴍᴀ ᴏʏᴜɴ ᴋᴏᴍᴜᴛʟᴀʀɪ: \n» /oyun => ʏᴇɴɪ ᴏʏᴜɴ ʙᴀşʟᴀᴛɪʀ . \n» /ogretmen => ᴏ̈ɢ̆ʀᴇᴛᴍᴇɴ ᴏʟᴍᴀᴋ \n» /puan => ɢʀᴜᴘ ᴜ̈ᴢᴇʀᴇ ᴘᴜᴀɴʟᴀʀ </b>""",
     reply_markup=InlineKeyboardMarkup(
              [
                  [
