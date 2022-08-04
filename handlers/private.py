@@ -8,7 +8,7 @@ from helpers.filters import command, other_filters2
 @Client.on_message(command(["start", f"start@{BOT_USERNAME}"]))
 async def start(_, message: Message):
                 await message.reply_photo(
-                "https://telegra.ph/file/754c4457767c0ef064ea7.jpg",
+                "https://telegra.ph/file/72f4e82d379dfed039920.jpg",
                 caption=(f"""● **ᴍᴇʀʜᴀʙᴀ** {message.from_user.mention} \n\n● **𝖡𝖾𝗇** {bot} !\n\n● **sᴇsʟɪ səsli söhbətlərdə mahnı oxuya bilən botam məni qrupunuza atıb yetki verməyiniz kifayətdir  . . !** \n\n● **ban yetkisiz səsli söhbətləri idarə yetkisi verməyiniz bəs edir . . !**"""),
          reply_markup=InlineKeyboardMarkup(
             [
@@ -30,7 +30,7 @@ async def start(_, message: Message):
                         "🐊 ᴋᴏᴍᴀɴᴅᴀʟᴀʀ" , callback_data= "cbbilgi"
                     ),
                     InlineKeyboardButton(
-                        "Qrᴜᴘᴀ ᴇʟᴀᴠᴇ ᴇᴛ", url=f"https://t.me/GOLDMusccbot?startgroup=true"
+                        "Qrᴜᴘᴀ ᴇʟᴀᴠᴇ ᴇᴛ", url=f"https://t.me/CreaaMusicBot?startgroup=true"
                     )
                 ]
                 
@@ -106,7 +106,7 @@ async def admin(_, query: CallbackQuery):
              [
                  [
                      InlineKeyboardButton(
-                         "⚙ Admin", url="https://t.me/tupurceyaktif")
+                         "⚙ Support", url="https://t.me/creativtemaa")
                  ],
                  [
                      InlineKeyboardButton(
@@ -124,12 +124,12 @@ async def cbstart(_, query: CallbackQuery):
             [
                 [
                     InlineKeyboardButton(
-                        "⚡️ Məni grupuna əlavə et ⚡️", url=f"https://t.me/GOLDMusccbot?startgroup=true"
+                        "⚡️ Məni grupuna əlavə et ⚡️", url=f"https://t.me/CreaaMusicBot?startgroup=true"
                     )
                 ],
                 [
                     InlineKeyboardButton(
-                        "🇦🇿 𝐀𝐬𝐢𝐬𝐭𝐚𝐧", url="https://t.me/GOLDAsisstan"
+                        "🇦🇿 𝐀𝐬𝐢𝐬𝐭𝐚𝐧", url="https://t.me/CreativAsisstan"
                     ),
                     InlineKeyboardButton(
                         "✨️ Sahib", url="https://t.me/Rexxuxxxnx"
